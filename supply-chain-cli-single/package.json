@@ -1,0 +1,17 @@
+{
+  "name": "supply-chain-cli-single",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.4"
+  },
+  "scripts": {
+    "start": "ts-node app.ts",
+    "listen": "nodemod app.ts"
+  }
+}
